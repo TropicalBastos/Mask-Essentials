@@ -2,7 +2,7 @@
 
 A many purpose input mask toolkit, currently includes number masks, character masks, date masks and credit to jsillitoe and contributors for the currency masks.
 
-##Installation
+## Installation
 
 ```
 npm install react-mask-essentials --save
