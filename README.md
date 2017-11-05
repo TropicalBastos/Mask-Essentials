@@ -30,5 +30,5 @@ separator         | /             | For IsoDateMasks, accepts any character as a
 
 <br /><br />
 For more on currency masks see jsillitoe's library <a href="https://github.com/jsillitoe/react-currency-input/">here</a>
-<br />
+<br /><br />
 Feel free to contribute and add new features or improve current ones, thanks!
