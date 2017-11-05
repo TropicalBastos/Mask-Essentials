@@ -2,6 +2,12 @@
 
 A many purpose input mask toolkit, currently includes number masks, character masks, date masks and credit to jsillitoe and contributors for the currency masks.
 
+##Installation
+
+```
+npm install react-mask-essentials --save
+```
+
 ## Integration
 
 You can create a mask like the following, it can accept all of the properties that an input element can accept

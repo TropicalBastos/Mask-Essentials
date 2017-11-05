@@ -1,6 +1,6 @@
 {
   "name": "react-mask-essentials",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Toolkit with various input masks at your disposal",
   "main": "build/index.js",
   "scripts": {
