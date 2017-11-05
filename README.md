@@ -13,6 +13,11 @@ npm install react-mask-essentials --save
 You can create a mask like the following, it can accept all of the properties that an input element can accept
 
 ```javascript
+import {NumberMask} from 'react-mask-essentials';
+import {CharMask} from 'react-mask-essentials';
+import {IsoDateMask} from 'react-mask-essentials';
+import {CurrencyMask} from 'react-mask-essentials'
+
 const App = () => (
   <div>
     <NumberMask placeholder="0" type="integer" />
