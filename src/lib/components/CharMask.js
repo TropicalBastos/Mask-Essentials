@@ -39,10 +39,10 @@ export default class CharMask extends React.Component{
 
         switch(this.mode){
             case "special":
-                newString = currentString.replace(/[~@#$^*()_+=[\]{}|\\,.?: -]/g, "");
+                newString = currentString.replace(/[^~@#$^*()_+=[\]{}|\\,.?: \-<>]/g, "");
                 break;
             case "both":
-                newString = currentString.replace(/[^a-zA-Z~@#$^*()_+=[\]{}|\\,.?: -'\-/]/g, "");
+                newString = currentString.replace(/[^a-zA-Z~@#$^*()_+=[\]{}|\\,.?: <>'\-/]/g, "");
                 break;
             case "email":
                 newString = currentString.replace(/[^abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#$%&'*@+-/=?^_`{|}~.]/g, "");
