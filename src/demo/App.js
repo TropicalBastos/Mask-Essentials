@@ -6,9 +6,9 @@ import { CurrencyMask } from '../lib';
 
 const App = () => (
   <div>
-    <NumberMask />
-    <CharMask />
-    <IsoDateMask />
+    <NumberMask type="integer" />
+    <CharMask type="alphabet" />
+    <IsoDateMask separator="-" />
     <CurrencyMask prefix="£" />
   </div>
 );
